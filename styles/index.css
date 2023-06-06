@@ -1,0 +1,64 @@
+main {
+    display: flex;
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #04D361;
+}
+
+main p {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 25px;
+    margin-top: 25px;
+    padding-right: 11vw;
+}
+
+h3 {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+
+.flexbox {
+    display: flex;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #04D361;
+    border: none;
+    width: 48px;
+    height: 48px;    
+}
+
+input {
+    border: none;
+    border-left: 5px solid #04D361;
+    height: 48px;
+    width: 35vw;
+    outline: 0;
+    padding-left: 10px;
+    font-size: 2rem;
+}
+
+.container {
+    background-color: #ECEDF1;
+    width: 46vw;
+    margin: 20px 2vw;
+    padding: 10px 1vw;
+    font-size: 2rem;
+    text-align: justify;
+}
+
+
+#undraw img {
+    margin-left: 10vw;
+    width: 20vw;
+    height: 50vh;
+}

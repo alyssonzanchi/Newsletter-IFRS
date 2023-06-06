@@ -1,0 +1,48 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #04D361;
+}
+
+main p {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+}
+
+main label {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+main input {
+    height: 40px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    background-size: 18px;
+}
+
+.user {
+    background-image: url("../assets/user.svg");
+}
+
+main div {
+    width: 50vw;
+    height: 60vh;
+}
