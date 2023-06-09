@@ -1,8 +1,12 @@
 main {
+    height: 70vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #ececec, #ffffff);
 }
 
-h1 {
+main h1 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     font-size: 2.4rem;
@@ -12,17 +16,18 @@ h1 {
 main p {
     font-family: 'League Spartan', sans-serif;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     line-height: 25px;
     margin-top: 25px;
-    padding-right: 11vw;
+    padding-right: 6vw;
 }
 
-h3 {
+main h3 {
     font-family: 'League Spartan', sans-serif;
     font-weight: 700;
-    font-size: 1.8rem;
-    margin-top: 10px;
+    font-size: 2rem;
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
 .flexbox {
@@ -30,14 +35,14 @@ h3 {
     margin-top: 20px;
 }
 
-button {
+main button {
     background-color: #04D361;
     border: none;
     width: 48px;
     height: 48px;    
 }
 
-input {
+main input {
     border: none;
     border-left: 5px solid #04D361;
     height: 48px;
@@ -47,10 +52,12 @@ input {
     font-size: 2rem;
 }
 
+main span {
+    font-size: 1.6rem;
+}
+
 .container {
-    background-color: #ECEDF1;
     width: 46vw;
-    margin: 20px 2vw;
     padding: 10px 1vw;
     font-size: 2rem;
     text-align: justify;
@@ -58,7 +65,7 @@ input {
 
 
 #undraw img {
-    margin-left: 10vw;
+    margin-left: 5vw;
     width: 20vw;
     height: 50vh;
 }
