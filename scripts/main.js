@@ -22,3 +22,13 @@ function viewPassword() {
         pass.type = 'password'
     }
 }
+
+function viewConfirmPassword() {
+    const pass = document.getElementById('confirm-password')
+    if (pass.type === 'password') {
+        pass.type = 'text'
+    } else {
+        pass.type = 'password'
+    }
+}
+

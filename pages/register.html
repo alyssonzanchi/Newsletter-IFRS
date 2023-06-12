@@ -8,7 +8,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Open+Sans:wght@400;700&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../styles/global.css">
-        <link rel="stylesheet" href="../styles/admin.css">
+        <link rel="stylesheet" href="../styles/login.css">
         <title>Newsletter IFRS</title>
     </head>
 
@@ -37,7 +37,38 @@
     </header>
 
     <main>
+        <div>
+            <div class="flexbox">
+                <img src="../assets/log-in.svg" alt="">
+                <h1>Faça o seu registro</h1>
+            </div>
 
+            <p>Insira as suas informações de cadastro.</p>
+
+            <form action="">
+                <label for="">Usuário:</label>
+                <input id="user" type="text" placeholder="Digite seu nome de usuário" required>
+
+                <label for="">E-mail:</label>
+                <input id="email" type="email" placeholder="Digite seu e-mail" required>
+    
+                <label for="">Senha:</label>
+                
+                <div class="flexbox">
+                    <input id="password" type="password" placeholder="Digite sua senha" required>
+                    <button type="button" id="eye" onclick="viewPassword()"><img src="../assets/eye.svg" alt=""></button>
+                </div>
+
+                <label for="">Confirme a senha:</label>
+
+                <div class="flexbox">
+                    <input id="confirm-password" type="password" placeholder="Digite sua senha" required>
+                    <button type="button" id="eye" onclick="viewConfirmPassword()"><img src="../assets/eye.svg" alt=""></button>
+                </div>
+                
+                <button>Registrar</button>
+            </form>
+        </div>
     </main>
 
     <footer>
