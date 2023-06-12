@@ -1,19 +1,29 @@
 main {
+    height: 70vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #ececec, #ffffff);
+}
+
+.flexbox {
+    display: flex;
 }
 
 main h1 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
-    font-size: 2.4rem;
+    font-size: 2.8rem;
+    margin-left: 5px;
     color: #04D361;
 }
 
 main p {
     font-family: 'League Spartan', sans-serif;
     font-weight: 400;
-    font-size: 1.6rem;
+    font-size: 2rem;
+    padding: 10px 0px;
 }
 
 main form {
@@ -24,25 +34,55 @@ main form {
 main label {
     font-family: 'League Spartan', sans-serif;
     font-weight: 400;
-    font-size: 1.6rem;
+    font-size: 2rem;
+    padding-top: 10px;
 }
 
 main input {
     height: 40px;
+    width: 300px;
+    margin: 5px 0px;
     font-family: 'League Spartan', sans-serif;
     font-weight: 400;
     font-size: 1.6rem;
-    padding-left: 30px;
+    padding-left: 35px;
     background-repeat: no-repeat;
-    background-position: 5px center;
-    background-size: 18px;
+    background-position: 10px center;
+    background-size: 15px;
+    border: 1px solid #17882C;
+    border-radius: 5px;
 }
 
-.user {
+main button {
+    width: 300px;
+    margin-top: 20px;
+    font-size: 2rem;
+    padding: 10px;
+    background-color: #04D361;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+main button:hover {
+    background-color: #17882C;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+#eye {
+    position: relative;
+    width: 30px;
+    padding: 0;
+    margin: 0;
+    left: -40px;
+    background-color: transparent;
+}
+
+#user {
     background-image: url("../assets/user.svg");
 }
 
-main div {
-    width: 50vw;
-    height: 60vh;
+#password {
+    background-image: url("../assets/lock.svg");
 }

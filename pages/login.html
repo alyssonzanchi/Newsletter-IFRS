@@ -37,22 +37,31 @@
     </header>
 
     <main>
-        <div class="container">
-            <img src="../assets/log-in.svg" alt="">
-            <h1>Faça seu login</h1>
+        <div>
+            <div class="flexbox">
+                <img src="../assets/log-in.svg" alt="">
+                <h1>Faça seu login</h1>
+            </div>
+
             <p>Entre com suas informações de cadastro.</p>
 
             <form action="">
-                <label for="">Usuário</label>
-                <input class="user" type="text" placeholder="Digite seu nome de usuário" required>
-
-                <label for="">Senha</label>
-                <div>
-                    <input class="pass" type="text" placeholder="Digite sua senha" required>
-                    <button>djsdj</button>
+                <label for="">Usuário:</label>
+                <input id="user" type="text" placeholder="Digite seu nome de usuário" required>
+    
+                <label for="">Senha:</label>
+                
+                <div class="flexbox">
+                    <input id="password" type="password" placeholder="Digite sua senha" required>
+                    <button type="button" id="eye"><img src="../assets/eye.svg" alt=""></button>
                 </div>
+                
+                <button>Entrar</button>
             </form>
         </div>
+
+
+
     </main>
 
     <footer>
