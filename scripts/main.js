@@ -13,3 +13,12 @@ function insertMail() {
             alert('O e-mail é obrigatório!')
         })
 }
+
+function viewPassword() {
+    const pass = document.getElementById('password')
+    if (pass.type === 'password') {
+        pass.type = 'text'
+    } else {
+        pass.type = 'password'
+    }
+}
